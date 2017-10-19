@@ -6,7 +6,6 @@ import leecoZl1 from '../../images/phones/leecozl1.png';
 import leecoX2 from '../../images/phones/leeco_x2.png';
 import lenovoA6000 from '../../images/phones/lenovo_a6000.png';
 import motoG4Plus from '../../images/phones/motog4plus_athene.png';
-import motoG5Plus from '../../images/phones/motog5plus_potter.png';
 import motoXStyle from '../../images/phones/motoxstyleclark.png';
 import motoZ from '../../images/phones/motoz_griffin.png';
 import nexus5x from '../../images/phones/nexus5x.png';
@@ -26,7 +25,6 @@ import seed from '../../images/phones/seed.png';
 import xperiaX from '../../images/phones/xperiaxsuzu.png';
 import xperiaXCompact from '../../images/phones/xperiaxcompact.png';
 import xperiaXzKagura from '../../images/phones/xperiaxz_kagura.png';
-import xperiaZ3 from '../../images/phones/xperiaz3.png';
 
 export class Devices extends Component {
   devices = [
@@ -127,12 +125,6 @@ export class Devices extends Component {
       pageUrl: "http://dl.omnirom.org/athene"
     },
     {
-      model: "Moto G5 Plus (potter)",
-      make: "Motorola",
-      image: motoG5Plus,
-      pageUrl: "http://dl.omnirom.org/potter"
-    },
-    {
       model: "Moto Z (griffin)",
       make: "Motorola",
       image: motoZ,
@@ -179,12 +171,6 @@ export class Devices extends Component {
       make: "Sony",
       image: xperiaXzKagura,
       pageUrl: "http://dl.omnirom.org/kagura"
-    },
-    {
-      model: "Xperia Z3 (leo)",
-      make: "Sony",
-      image: xperiaZ3,
-      pageUrl: "http://dl.omnirom.org/leo"
     }
   ]
 
